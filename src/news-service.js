@@ -6,8 +6,10 @@ export default class NewsApiService{
     } 
     fetchArticles() {
        const options = {
-    headers: {
-       Authorization: 'fd723a94ec2b4e4eabf33f8f9c11678f',
+           headers: {
+            'Access-Control-Allow-Origin': '*',
+             Authorization: 'fd723a94ec2b4e4eabf33f8f9c11678f',
+        
     }
     }
     const url =`https://newsapi.org/v2/everything?q=${this.searchQuery}&pageSize=5&language=en&page=${this.page}`
