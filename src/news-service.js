@@ -7,8 +7,7 @@ export default class NewsApiService{
     fetchArticles() {
        const options = {
            headers: {
-            'Access-Control-Allow-Origin': '*',
-             Authorization: 'fd723a94ec2b4e4eabf33f8f9c11678f',
+           Authorization: 'fd723a94ec2b4e4eabf33f8f9c11678f',
         
     }
     }
